@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    color: #ffff;
+    background-color: #6422B8;
+    padding: 0;
+    margin: 0;
+    width: 580px;
+    height: 100%;
+}
+.ContactosC {
+    width: 440PX;
+    height: 587px;
+    background-color: #6422B8 ;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan verticalmente */
+    margin: auto;
+    padding: 0;
+}
+.Cuadrotres img {
+    cursor: pointer;
+    border: 0;
+    width: 200px;
+    padding: 0%;
+    height: 200px;
+    margin: auto;
+}
+.Cuadrotres p {
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.Cuadrotres {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 200px;
+}

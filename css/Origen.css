@@ -1,0 +1,847 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    color: #372A28;
+    background-color: #FFC61A;
+}
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color del "pomo" de la barra de desplazamiento */
+    border-radius: 5px; /* Bordes redondeados del "pomo" */
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+
+}
+@media (min-width:320px) and (max-width:599px){
+    
+    main {
+        background-color: #FFF4EA;
+        padding: 0;
+        margin: auto;
+        width: 100%;
+    }
+    .arriba {
+        padding: 20px 20px 0px 10px;
+        margin-bottom: 0px;
+        float: right;
+        font-size: 10px;
+    }
+    #BotonDesplegable {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        overflow: auto;
+        padding: 0;
+    }
+    #BotonDesplegable img {
+        width: 40px;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .menu {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        padding: 0;
+        display: none;
+        margin-bottom: 0 ;
+      }
+      .menu-visible {
+        display: block;
+      }
+    .menu li  {
+        margin: auto;
+        font-size: 15px;
+        font-family: "Arbutus Slab";
+        padding-bottom: 10px;
+        border-bottom: #372A28 2px solid;
+        padding-left: 10px;
+    }
+    .menu li:hover {
+        background-color: #A548FF;
+        color: #FFF4EA; 
+    }
+    .menu a {
+        color: inherit; /* Hereda el color de texto del elemento padre */
+        text-decoration: none; /* Elimina el subrayado predeterminado en los enlaces */
+    }
+    /* primera hoja */
+    .pagina {
+        background-color: #FFC61A;
+        margin: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        padding: 10px;
+        display: flex;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .contenedoruno {
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center
+    }
+    .logo_principal {
+        display: none;
+    }
+    .interno {
+        height: auto; 
+        max-width: 100%; 
+        display: block; 
+        margin: 10% 5% 5%;
+    }
+    .interno h2 {
+        font-family: "Arbutus Slab";
+        font-weight: 400;
+        font-size: 2em;
+        margin: 0;
+        padding: 0;
+        color: #372A28;
+        text-align: center;
+    }
+    .botones {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .botones button {
+        background-color: #FFF4EA;
+        font-size: 0.8em;
+        font-family: "Arbutus Slab";
+        border: #FFF4EA;
+        cursor: pointer;
+        padding: 8px 15px;
+        display: block;
+        margin: 10px;
+        border-radius: 12px;
+    }
+    .botones button:hover {
+        background-color: #7b5f0a;
+        color: #FFF4EA;
+    }
+    /* segunda hoja */
+    .PaginaDos {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: #FFF4EA;
+        padding: 20px 0 0px 0px;
+        justify-content: center;
+    }
+    .contenedorDos {
+        padding: 0;
+        margin: 0;
+    }
+    .contenedorDos h2 {
+        font-family: "Arbutus Slab";
+        font-weight: 200px;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .arribaDos {
+        width: 100%; 
+        height: auto; 
+        max-width: 100%; 
+        display: block; 
+        margin: 5% auto;
+        padding-bottom: 20px;
+    }
+    .imagendos {
+        display: none;
+    }
+    .barras{
+        margin: 0px 0px 0px;
+        display: flex;
+        padding: 0;
+    }
+    .contenedorDos ul li {
+        text-decoration: none;
+        display: flex;
+    }
+    .barras ul {
+        width: 50%;
+    }
+    .contenedorDos ul li button{
+        font-family: "Arbutus Slab";
+        cursor: pointer;
+        border: 0;
+        color: #ffff;
+        float: right;
+        width: 100%;
+        height: 120px;
+        padding:10px 20px;
+        text-align: center;
+    }
+    .uno {
+        background-color: #00C4CC;
+    }
+    .contenedorDos ul li button:hover{
+        background-color: #FFC61A;
+        border: 2px solid #372A28;
+        color: #372A28;
+    
+    }
+    .dos {
+        background-color: #A548FF;
+    }
+    .tres {
+        background-color: #6422B8;
+    }
+    .cuatro {
+        background-color: #FF738E;
+    }
+    .cinco {
+        background-color: #FFA53B;
+    }
+    .seis {
+        background-color: #FFD93B;
+    }
+    /* tercera hoja */
+    .PaginaTres {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        background-color: #FFECB3;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .contenedortres {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center
+    }
+    .contenedortres img {
+        border-radius: 20px;
+        width: 50%;
+        padding: 0;
+        margin: 30px 10px;
+        display: none;
+    }
+    .menudos {
+        padding: auto;
+        margin: auto;
+        width: 100%;
+    }
+    .titulo {
+        font-family: "Arbutus Slab";
+        background-color: #FFA53B;
+        border-radius: 25px;
+        font-size: 25px;
+        padding: 20px 30px;
+        border: 0px;
+        margin: 20px auto;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+        color: #ffff;
+        width: 80%;
+    }
+    .ContenedorDeBotonesSeis {
+        margin-top: 10px;
+        padding: auto;
+        display: flex;
+        flex-wrap: wrap; /* Permite que los elementos se envuelvan verticalmente */
+        overflow: auto;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .tuno, .tdos, .ttres, .tcuatro, .tcinco, .tseis{
+        background-color: #FFD93B;
+        font-size: 15px;
+        font-family: "Arbutus Slab";
+        cursor: pointer;
+        padding: 10px;
+        border: 0;
+        color: #ffff;
+        float: right;
+        height: 100px;
+        width: 110px;
+        border-radius: 20px;
+        color: #372A28;
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+    }
+    .tuno:hover, .tdos:hover, .ttres:hover, .tcuatro:hover, .tseis:hover, .tcinco:hover {
+        background-color: #A548FF;
+        color: #ffff;
+    }
+    /* cuatro hoja */
+    .PaginaCuatro, footer {
+        display: none;
+    }
+
+}
+
+
+@media (min-width:600px) and (max-width:1199px){
+    main {
+        background-color: #FFF4EA;
+        padding: 20px 0 20px 20px;
+        margin: auto;
+        width: 100%;
+    }
+    #BotonDesplegable {
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .arriba {
+        margin-bottom: 10px;       
+    }
+    .menu li  {
+        margin: auto;
+        font-size: 15px;
+        font-family: "Arbutus Slab";
+        padding: auto;
+    }
+    #menu {
+        width: auto;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        list-style: none;
+    }
+    .menu a {
+        color: #372A28;
+        margin: auto;
+    }
+    .pagina {
+        background-color: #FFC61A;
+        margin: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        padding: 10px 0 20px 20px;
+        display: flex;
+    }
+    .contenedoruno {
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center
+    }
+    .interno {
+        width: 50%; 
+        height: auto; 
+        max-width: 100%; 
+        display: block; 
+        margin: 5% auto;
+    }
+    .logo_principal {
+        width: 50%; /* Establece el ancho al 40% */
+        height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+        max-width: 100%; /* Evita que la imagen sea más ancha que el 100% de su contenedor */
+        display: block; /* Asegura que la imagen se comporte como un bloque */
+        margin: 0 auto; /* Centra la imagen horizontalmente en su contenedor */
+        transform: scaleX(-1);
+    }
+    .interno h2 {
+        font-family: "Arbutus Slab";
+        font-weight: 200;
+        font-size: 200%;
+        margin: 0;
+        padding: 0;
+        color: #372A28;
+    }
+    .botones {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .botones button {
+        background-color: #FFF4EA;
+        font-size: 1.5em;
+        font-family: "Arbutus Slab";
+        border: #FFF4EA;
+        cursor: pointer;
+        padding: 20px 40px;
+        display: block;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    .botones button:hover {
+        background-color: #7b5f0a;
+        color: #FFF4EA;
+    }
+    /* segunda hoja */
+    .PaginaDos {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: #FFF4EA;
+        padding: 20px 0 0px 20px;
+    }
+    .contenedorDos {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center
+    }
+    .contenedorDos h2 {
+        font-family: "Arbutus Slab";
+        font-weight: 200px;
+        font-size: 2em;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .arribaDos {
+        width: 50%; 
+        height: auto; 
+        max-width: 100%; 
+        display: block; 
+        margin: 5% auto;
+    }
+    .barras{
+        margin: 0px 30px 20px;
+        display: flex;
+    }
+    .contenedorDos ul li {
+        text-decoration: none;
+        display: flex;
+    }
+    .contenedorDos ul li button{
+        font-family: "Arbutus Slab";
+        cursor: pointer;
+        border: 0;
+        color: #ffff;
+        float: right;
+        width: 140px;
+        height: 120px;
+        padding:10px 20px;
+        text-align: center;
+    }
+    .uno {
+        background-color: #00C4CC;
+    }
+    .contenedorDos ul li button:hover{
+        background-color: #FFC61A;
+        border: 2px solid #372A28;
+        color: #372A28;
+    
+    }
+    .dos {
+        background-color: #A548FF;
+    }
+    .tres {
+        background-color: #6422B8;
+    }
+    .cuatro {
+        background-color: #FF738E;
+    }
+    .cinco {
+        background-color: #FFA53B;
+    }
+    .seis {
+        background-color: #FFD93B;
+    }
+    /* tercera hoja */
+    .PaginaTres {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        background-color: #FFECB3;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .contenedortres {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .contenedortres img {
+        border-radius: 20px;
+        width: 50%;
+        padding: 0;
+        margin: 30px 10px;
+    }
+    .menudos {
+        padding: auto;
+        margin: auto;
+        width: 50%;
+    }
+    .titulo {
+        font-family: "Arbutus Slab";
+        background-color: #FFA53B;
+        border-radius: 25px;
+        font-size: 25px;
+        padding: 20px 30px;
+        border: 0px;
+        margin: auto;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+        color: #ffff;
+        width: 80%;
+
+    }
+    .ContenedorDeBotonesSeis {
+        margin-top: 10px;
+        padding: auto;
+        display: flex;
+        flex-wrap: wrap; /* Permite que los elementos se envuelvan verticalmente */
+        overflow: auto;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .tuno, .tdos, .ttres, .tcuatro, .tcinco, .tseis{
+        background-color: #FFD93B;
+        font-size: 15px;
+        font-family: "Arbutus Slab";
+        cursor: pointer;
+        padding: 10px;
+        border: 0;
+        color: #ffff;
+        float: right;
+        height: 100px;
+        width: 110px;
+        border-radius: 20px;
+        color: #372A28;
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+    }
+    .tuno:hover, .tdos:hover, .ttres:hover, .tcuatro:hover, .tseis:hover, .tcinco:hover {
+        background-color: #A548FF;
+        color: #ffff;
+    }
+    /* cuatro hoja */
+    .PaginaCuatro, footer {
+        display: none;
+    }
+}
+@media (min-width:1200px) {
+    main {
+        background-color: #FFF4EA;
+        padding: 20px 0 20px 20px;
+        margin: auto;
+        width: 100%;
+    }
+    #BotonDesplegable {
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        display: none;
+    }
+    .menu li  {
+        display: inline;
+        margin: 0 1em;
+        font-size: 25px;
+        font-family: "Arbutus Slab"; 
+    }
+    .menu a {
+        color: #372A28;
+    }
+    .menu {
+        padding-top: 20px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .pagina {
+        background-color: #FFC61A;
+        margin: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        padding: 10px 0 20px 20px;
+    }
+    .contenedoruno {
+        display: flex;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .arriba {
+        max-width: 1200px;
+        margin: auto;
+        font-size: 30px;
+    }
+    .interno {
+        max-width: 1200px;
+        margin-left: 50px;
+    }
+    .interno h2 {
+        font-family: "Arbutus Slab";
+        font-weight: 200;
+        font-size: 50px;
+        width: 438px;
+        margin: 0;
+        padding-top: 60px;
+        color: #372A28;
+    }
+    .logo_principal {
+        height: 600px;
+        transform: scaleX(-1);
+        
+    }
+    .botones button {
+        background-color: #FFF4EA;
+        font-size: 20px;
+        font-family: "Arbutus Slab";
+        border: #FFF4EA;
+        cursor: pointer;
+        padding: 20px 40px;
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+    .botones button:hover {
+        background-color: #7b5f0a;
+        color: #FFF4EA;
+    }
+    .botones {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .PaginaDos {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: #FFF4EA;
+        padding: 0px 0 0px 20px;
+    }
+    .contenedorDos {
+        max-width: 1200px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    
+        justify-content: center;
+        align-items: center
+    }
+    .contenedorDos h2 {
+        font-family: "Arbutus Slab";
+        font-weight: 200px;
+        font-size: 40px;
+        width: 400px;
+        margin:  20px auto;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .imagendos img{
+        height: 400px;
+        margin: 30px auto;
+    }
+    .barras{
+        margin: 0px 30px;
+        display: flex;
+    }
+    .contenedorDos ul li {
+        text-decoration: none;
+        display: flex;
+    }
+    .contenedorDos ul li button{
+        font-size: 25px;
+        font-family: "Arbutus Slab";
+        cursor: pointer;
+        padding: 20px;
+        border: 0;
+        color: #ffff;
+        float: right;
+        height: 260px;
+        width: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .uno {
+        background-color: #00C4CC;
+    }
+    .contenedorDos ul li button:hover{
+        background-color: #FFC61A;
+        border: 2px solid #372A28;
+        color: #372A28;
+    
+    }
+    .dos {
+        background-color: #A548FF;
+    }
+    .tres {
+        background-color: #6422B8;
+    }
+    .cuatro {
+        background-color: #FF738E;
+    }
+    .cinco {
+        background-color: #FFA53B;
+    }
+    .seis {
+        background-color: #FFD93B;
+    }
+    .contenedortres {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    /* tercera hoja */
+    .PaginaTres {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        padding: 0;
+        background-color: #FFECB3;
+        padding: 10px 0 20px 20px;
+    }
+    .contenedortres img {
+        border-radius: 20px;
+        height: 650px;
+        margin: 10px 0px 20px 40px;
+        padding: 20px 0;
+        float: right;
+    }
+    .menudos {
+        padding: 50px 0
+    }
+    .ContenedorDeBotonesSeis {
+        margin-top: 10px;
+        padding: auto;
+        display: flex;
+        flex-wrap: wrap; /* Permite que los elementos se envuelvan verticalmente */
+        overflow: auto;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .tuno, .tdos, .ttres, .tcuatro, .tcinco, .tseis{
+        background-color: #FFD93B;
+        font-size: 25px;
+        font-family: "Arbutus Slab";
+        cursor: pointer;
+        padding: 10px;
+        border: 0;
+        color: #ffff;
+        float: right;
+        height: 200px;
+        width: 210px;
+        border-radius: 20px;
+        color: #372A28;
+        overflow: hidden;
+        margin: 10px;
+        text-align: center;
+    }
+    .tuno:hover, .tdos:hover, .ttres:hover, .tcuatro:hover, .tseis:hover, .tcinco:hover {
+        background-color: #A548FF;
+        color: #ffff;
+    }
+    .titulo {
+        font-family: "Arbutus Slab";
+        background-color: #FFA53B;
+        border-radius: 25px;
+        font-size: 40px;
+        padding: 20px 30px;
+        border: 0px;
+        margin-bottom: 20px;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+        color: #ffff;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .PaginaCuatro {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        padding: 10px 0 20px 20px;
+    }
+    .contenedorcuatro {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+    .preguntas {
+        font-family: "Arbutus Slab";
+        font-weight: 400px;
+        font-size: 30px;
+        padding-top: 10px;
+        border-top: 2px solid #372A28;
+        color: #372A28;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+    }
+    .preguntauno {
+        font-family: "Arbutus Slab";
+        font-weight: 600;
+        font-size: 20px;
+        padding-top: 10px;
+        color: #ffff;
+    }
+    footer {
+        background-color: #946C0A;
+        color: #ffff;
+    }
+    footer p {
+        font-family: "Arbutus Slab";
+        font-weight: 200px;
+        font-size: 30px;
+        padding-top: 40px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+    }
+    /* tercera hoja */
+}

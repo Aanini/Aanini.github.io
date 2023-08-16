@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    color: #372A28;
+    background-color: #FFC61A;
+}
+main {
+    background-color: #FFF4EA;
+    padding: 20px 0 20px 20px;
+    margin: auto;
+    width: 100%;
+}
+li  {
+    display: inline;
+    max-width: 800px;
+    margin-left: 3em;
+}
+.menu {
+    padding-top: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.pagina {
+    background-color: #FFC61A;
+    padding: 20px 0 20px 20px;
+    margin: auto;
+    width: 100%;
+}
+.arriba {
+    max-width: 800px;
+    margin: auto;
+}
+.interno {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+}
+.interno h2 {
+    font-family: "Arbutus Slab";
+    font-weight: 200;
+    font-size: 40px;
+    width: 400px;
+    margin: 0;
+    padding-top: 50px;
+}
+.logo_principal {
+    height: 400px;
+    transform: scaleX(-1)
+}
+.botones button {
+    background-color: #FFF4EA;
+    font-size: 20px;
+    font-family: "Arbutus Slab";
+    border: #FFF4EA;
+    cursor: pointer;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.botones button:hover {
+    background-color: #7b5f0a;
+    color: #FFF4EA;
+}
+.botones {
+    margin-top: -110px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+.PaginaDos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background-color: #FFF4EA;
+    padding: 10px 0 20px 20px;
+}
+.contenedorDos {
+    max-width: 800px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+.contenedorDos h2 {
+    font-family: "Arbutus Slab";
+    font-weight: 200px;
+    font-size: 30px;
+    width: 400px;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+.imagendos img{
+    height: 400px;
+}
+.contenedorDos ul li button{
+    font-size: 20px;
+    font-family: "Arbutus Slab";
+    cursor: pointer;
+    padding: 20px;
+    border: 0;
+    color: #ffff;
+    float: right;
+    height: 150px;
+    width: 200px;
+}
+.uno {
+    background-color: #00C4CC;
+}
+.contenedorDos ul li button:hover{
+    background-color: #FFC61A;
+    border: 2px solid #372A28;
+    color: #372A28;
+
+}
+.dos {
+    background-color: #A548FF;
+}
+.tres {
+    background-color: #6422B8;
+}
+.cuatro {
+    background-color: #FF738E;
+}
+.cinco {
+    background-color: #FFA53B;
+}
+.seis {
+    background-color: #FFD93B;
+}
+.contenedortres {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    display: flex;
+}
+.PaginaTres {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background-color: #FFF4EA;
+    padding: 10px 0 20px 20px;
+}
+.contenedortres img {
+    border-radius: 20px;
+    height: 450px;
+    width: 370px;
+    margin: -10px 0px 0 40px;
+    float: right;
+}
+.titulo {
+    font-family: "Arbutus Slab";
+    background-color: #FFA53B;
+    border-radius: 25px;
+    font-size: 40px;
+    padding: 20px 30px;
+    border: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+}
+.tuno, .tdos, .ttres, .tcuatro {
+    background-color: #FFD93B;
+    font-size: 20px;
+    font-family: "Arbutus Slab";
+    cursor: pointer;
+    padding: 20px;
+    border: 0;
+    color: #ffff;
+    float: right;
+    height: 150px;
+    width: 180px;
+    margin: 0 0px 20px ;
+    border-radius: 20px;
+    color: #372A28;
+}
+.tuno:hover, .tdos:hover, .ttres:hover, .tcuatro:hover {
+    background-color: #A548FF;
+    color: #ffff;
+}
+.tcuatro, .tdos{
+    margin-right: 20px;
+}
+.PaginaCuatro {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 10px 0 20px 20px;
+}
+.contenedorcuatro {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+.preguntas {
+    font-family: "Arbutus Slab";
+    font-weight: 400px;
+    font-size: 30px;
+    padding-top: 10px;
+    border-top: 2px solid #372A28;
+    color: #372A28;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+.preguntauno {
+    font-family: "Arbutus Slab";
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #ffff;
+}
+footer {
+    background-color: #946C0A;
+    color: #ffff;
+}
+footer p {
+    font-family: "Arbutus Slab";
+    font-weight: 200px;
+    font-size: 30px;
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}

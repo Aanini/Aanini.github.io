@@ -1,0 +1,103 @@
+@media (min-width:320px) {
+    
+    main {
+        background-color: #FFF4EA;
+        padding: 0;
+        margin: auto;
+        width: 100%;
+    }
+    .arriba {
+        padding: 10px 10px 0px 10px;
+        margin-bottom: 0px;
+    }
+    #BotonDesplegable {
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #menu {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        display: none;
+    }
+    .menu li  {
+        margin: auto;
+        font-size: 15px;
+        font-family: "Arbutus Slab";
+        padding-bottom: 10px;
+        border-bottom: #372A28 2px solid;
+        padding-left: 10px;
+    }
+    .menu li:hover {
+        background-color: #A548FF;
+        color: #FFF4EA; 
+    }
+    .menu li a {
+        color: inherit; /* Hereda el color de texto del elemento padre */
+        text-decoration: none; /* Elimina el subrayado predeterminado en los enlaces */
+    }
+    /* primera hoja */
+    .pagina {
+        background-color: #FFC61A;
+        margin: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        padding: 10px;
+        display: flex;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .contenedoruno {
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center
+    }
+    .logo_principal {
+        width: 50%; /* Establece el ancho al 40% */
+        height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+        max-width: 100%; /* Evita que la imagen sea más ancha que el 100% de su contenedor */
+        display: block; /* Asegura que la imagen se comporte como un bloque */
+        margin: 0 auto; /* Centra la imagen horizontalmente en su contenedor */
+        transform: scaleX(-1);
+    }
+    .interno {
+        width: 50%; 
+        height: auto; 
+        max-width: 100%; 
+        display: block; 
+        margin: 5% auto;
+    }
+    .interno h2 {
+        font-family: "Arbutus Slab";
+        font-weight: 200;
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+        color: #372A28;
+    }
+    .botones {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .botones button {
+        background-color: #FFF4EA;
+        font-size: 0.8em;
+        font-family: "Arbutus Slab";
+        border: #FFF4EA;
+        cursor: pointer;
+        padding: 8px 15px;
+        display: block;
+        margin-bottom: 10px;
+        border-radius: 12px;
+    }
+}

@@ -1,0 +1,543 @@
+
+@media (max-width:599px){
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    
+  }
+  .sectionuno {
+    width: 100%;
+    height: auto;
+  }
+  .sectiondos {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sectiontres {
+    height: 30%;
+    width: 100%;
+    order: 2;
+    display: flex;
+    overflow: auto;
+  }
+  .sectioncuatro {
+    height: 70%;
+    width: 100%;
+    order: 1;
+  }
+  
+  #section1 {
+  background-color: #FFF4EA;
+  }
+  
+  #section2 {
+    background-color: green;
+  }
+  
+  #section3 {
+    background-color: blue;
+  }
+  #section4 {
+    background-color: aqua;
+  }
+  .sectionuno {
+    background-color: #FFF4EA;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  .arriba {
+    padding: 10px 20px 0px 10px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    float: right;
+    font-size: 10px;
+  }
+  #BotonDesplegable {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    overflow:auto;
+    background-image: url('6364542.png');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el área del botón */
+  }
+  .menu {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    padding: 0;
+    display: none;
+    margin-bottom: 0 ;
+  }
+  .menu-visible {
+    display: block;
+  }
+  .menu li  {
+    margin: auto;
+    font-size: 15px;
+    font-family: "Arbutus Slab";
+    padding-bottom: 10px;
+    border-bottom: #372A28 2px solid;
+    padding-left: 10px;
+  }
+  .menu li:hover {
+    background-color: #A548FF;
+    color: #FFF4EA; 
+  }
+  .menu a {
+    color: inherit; /* Hereda el color de texto del elemento padre */
+    text-decoration: none; /* Elimina el subrayado predeterminado en los enlaces */
+  }
+  .sectiontres button {
+    font-size: 20px;
+    font-family: "Arbutus Slab";
+    cursor: pointer;
+    border: 0;
+    color: #372A28;
+    margin: 0;
+    flex: 0 0 140px; /* Ancho fijo deseado */
+  
+  }
+  button:hover {
+    color: #ffff;
+    background-color: #FFC61A;
+  }
+  #myIframe {
+    width: 100%;
+    height: 100%;
+  }
+  ::-webkit-scrollbar {
+    width: 5px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color del "pomo" de la barra de desplazamiento */
+    border-radius: 5px; /* Bordes redondeados del "pomo" */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  /* Estilo para la barra de desplazamiento vertical */
+  .styled-iframe::-webkit-scrollbar {
+    width: 15px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  .styled-iframe::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del pulgar (la parte arrastrable) */
+    border-radius: 5px; /* Borde redondeado del pulgar */
+  }
+  
+  .styled-iframe::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del pulgar al pasar el mouse */
+  }
+  .sectiontres::-webkit-scrollbar {
+    height: 5px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+  }
+  
+  .sectiontres::-webkit-scrollbar-thumb {
+    background: #888; /* Color del "pomo" de la barra de desplazamiento */
+    border-radius: 5px; /* Bordes redondeados del "pomo" */
+  }
+  
+  .sectiontres::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  }
+  @media (min-width: 600px) and (max-width: 799px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    body {
+        color: #372A28;
+        background-color: #FFC61A;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    .sectionuno {
+        height: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .sectiondos {
+        height: 90%;
+        width: 100%;
+        display: flex;
+    }
+    .sectiontres {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+    .sectioncuatro {
+        height: 100%;
+        width: 50%;
+    }
+    #section1 {
+        background-color: #FFF4EA;
+    }
+    #section2 {
+        background-color: green;
+    }
+    #section3 {
+        background-color: #372A28;
+    }
+    #section4 {
+        background-color: aqua;
+    }
+    main {
+        background-color: #FFF4EA;
+        padding: 20px 0 20px 20px;
+        margin: auto;
+        width: 100%;
+    }
+    #BotonDesplegable {
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .arriba {
+        margin-bottom: 10px;
+    }
+    .menu a {
+        margin: auto;
+        font-size: 15px;
+        font-family: "Arbutus Slab";
+        padding: 0; /* Corrección aquí */
+    }
+    #menu {
+        width: auto;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        list-style: none;
+    }
+    .menu a {
+        color: #372A28;
+    }
+    .sectiontres button {
+        font-size: 20px;
+        font-family: "Arbutus Slab";
+        cursor: pointer;
+        border: 0;
+        color: #372A28;
+        width: 50%;
+        margin: 0;
+        padding: 0; /* Corrección aquí */
+        height: 117.5px;
+    }
+    button:hover {
+        color: #fff;
+        background-color: #FFC61A;
+    }
+    #myIframe {
+        width: 100%;
+        height: 100%;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    .styled-iframe::-webkit-scrollbar {
+        width: 15px;
+    }
+    .styled-iframe::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 5px;
+    }
+    .styled-iframe::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+}
+@media (min-width: 800px) and (max-width:1199px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    color: #372A28;
+    background-color: #FFC61A;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.sectionuno {
+    width: 100%;
+    height: auto;
+}
+.sectiondos {
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.sectiontres {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.sectioncuatro {
+    height: 100%;
+    width: 50%;
+}
+#section1 {
+    background-color: #FFF4EA;
+}
+#section2 {
+    background-color: green;
+}
+#section3 {
+    background-color: #372A28;
+}
+#section4 {
+    background-color: aqua;
+}
+main {
+    background-color: #FFF4EA;
+    padding: 20px 0 20px 20px;
+    margin: auto;
+    width: 100%;
+}
+#BotonDesplegable {
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: none;
+}
+.arriba {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.menu a {
+    margin: auto;
+    font-size: 20px;
+    font-family: "Arbutus Slab";
+    padding: 0; /* Corrección aquí */
+}
+#menu {
+    width: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    list-style: none;
+}
+.menu a {
+    color: #372A28;
+}
+.sectiontres button {
+    font-size: 20px;
+    font-family: "Arbutus Slab";
+    cursor: pointer;
+    border: 0;
+    color: #372A28;
+    width: 50%;
+    margin: 0;
+    padding: 0; /* Corrección aquí */
+    height: 117.5px;
+}
+button:hover {
+    color: #fff;
+    background-color: #FFC61A;
+}
+#myIframe {
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.styled-iframe::-webkit-scrollbar {
+    width: 15px;
+}
+.styled-iframe::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+.styled-iframe::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+}
+@media (min-width:1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    color: #372A28;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,209,148,1) 100%);
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.sectionuno {
+    width: 1200px;
+    height: auto;
+}
+.sectiondos {
+    height: 100%;
+    width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectiontres {
+    height: 100%;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.sectioncuatro {
+    height: 100%;
+    width: 600px;
+}
+#section1 {
+    background-color: #FFF4EA;
+}
+#section2 {
+    background-color: green;
+}
+#section3 {
+    background-color: #372A28;
+}
+#section4 {
+    background-color: aqua;
+}
+main {
+    background-color: #FFF4EA;
+    padding: 20px 0 20px 20px;
+    margin: auto;
+    width: 100%;
+}
+#BotonDesplegable {
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: none;
+}
+.arriba {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.menu a {
+    margin: auto;
+    font-size: 25px;
+    font-family: "Arbutus Slab";
+    padding: 0; /* Corrección aquí */
+}
+#menu {
+    width: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    list-style: none;
+}
+.menu a {
+    color: #372A28;
+}
+.sectiontres button {
+    font-size: 20px;
+    font-family: "Arbutus Slab";
+    cursor: pointer;
+    border: 0;
+    color: #372A28;
+    width: 50%;
+    margin: 0;
+    padding: 0; /* Corrección aquí */
+    height: 117.5px;
+}
+button:hover {
+    color: #fff;
+    background-color: #FFC61A;
+}
+#myIframe {
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.styled-iframe::-webkit-scrollbar {
+    width: 15px;
+}
+.styled-iframe::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+.styled-iframe::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+}
