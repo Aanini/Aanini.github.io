@@ -252,7 +252,7 @@
         width: 50%;
         margin: 0;
         padding: 0; /* Corrección aquí */
-        height: 117.5px;
+        height: 117.5px;z
     }
     button:hover {
         color: #fff;
@@ -302,11 +302,10 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
 }
 .sectionuno {
     width: 100%;
-    height: auto;
+    height: 10%;
 }
 .sectiondos {
     height: 90%;
@@ -377,8 +376,7 @@ main {
     color: #372A28;
     width: 50%;
     margin: 0;
-    padding: 0; /* Corrección aquí */
-    height: 117.5px;
+    padding: 10px 20px;
 }
 button:hover {
     color: #fff;
