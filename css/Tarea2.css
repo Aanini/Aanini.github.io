@@ -176,7 +176,6 @@
         margin: 0;
         padding: 0;
         height: 100%;
-        overflow: hidden;
     }
     .sectionuno {
         height: 10%;
@@ -251,8 +250,7 @@
         color: #372A28;
         width: 50%;
         margin: 0;
-        padding: 0; /* Corrección aquí */
-        height: 117.5px;z
+        padding: 10px 20px;
     }
     button:hover {
         color: #fff;
